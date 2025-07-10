@@ -86,6 +86,7 @@ class Mp4Player {
   }
 }
 
+
 // 3. Adapter 클래스: Target을 구현하면서 Adaptee를 내부 보유
 class MediaAdapter implements MediaPlayer {
   private vlc: VlcPlayer;
